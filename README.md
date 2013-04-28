@@ -25,6 +25,9 @@ RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?code=$1 [QSA]
 </IfModule>
 ```
 
+4. Test the built-in `sv` code.  For example, http://example.com/go/sv
+should redirect to http://en.wikipedia.org/wiki/Silicon_Valley.
+
 ## Author
 
 Brian Cantoni <brian AT cantoni.org>
