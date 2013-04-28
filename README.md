@@ -17,7 +17,6 @@ similar).
 2. Copy `links.ini` and `index.php` into the `go` subdirectory
 
 3. Add a new file `.htaccess` in the `go` subdirectory to set up the rewrite rules:
-
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine on
